@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbefModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Area">
+    <Key>
+      <PropertyRef Name="AreaID" />
+    </Key>
+    <Property Name="AreaID" Type="Int32" Nullable="false" />
+    <Property Name="AreaName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CityID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="City" Relationship="Self.FK_Areas_Areas" FromRole="Areas" ToRole="Cities" />
+  </EntityType>
+  <EntityType Name="City">
+    <Key>
+      <PropertyRef Name="CityID" />
+    </Key>
+    <Property Name="CityID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CityName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Areas" Relationship="Self.FK_Areas_Areas" FromRole="Cities" ToRole="Areas" />
+  </EntityType>
+  <Association Name="FK_Areas_Areas">
+    <End Role="Cities" Type="Self.City" Multiplicity="1" />
+    <End Role="Areas" Type="Self.Area" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cities">
+        <PropertyRef Name="CityID" />
+      </Principal>
+      <Dependent Role="Areas">
+        <PropertyRef Name="CityID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="dbefEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Areas" EntityType="Self.Area" />
+    <EntitySet Name="Cities" EntityType="Self.City" />
+    <AssociationSet Name="FK_Areas_Areas" Association="Self.FK_Areas_Areas">
+      <End Role="Cities" EntitySet="Cities" />
+      <End Role="Areas" EntitySet="Areas" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
