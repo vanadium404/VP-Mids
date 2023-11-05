@@ -1,0 +1,10 @@
+C:\Users\HP\source\repos\DbConn\DbConn\bin\Debug\DbConn.exe.config
+C:\Users\HP\source\repos\DbConn\DbConn\bin\Debug\DbConn.exe
+C:\Users\HP\source\repos\DbConn\DbConn\bin\Debug\DbConn.pdb
+C:\Users\HP\source\repos\DbConn\DbConn\obj\Debug\DbConn.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\DbConn\DbConn\obj\Debug\DbConn.Form1.resources
+C:\Users\HP\source\repos\DbConn\DbConn\obj\Debug\DbConn.Properties.Resources.resources
+C:\Users\HP\source\repos\DbConn\DbConn\obj\Debug\DbConn.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\DbConn\DbConn\obj\Debug\DbConn.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\DbConn\DbConn\obj\Debug\DbConn.exe
+C:\Users\HP\source\repos\DbConn\DbConn\obj\Debug\DbConn.pdb
