@@ -1,0 +1,10 @@
+C:\Users\HP\source\repos\Stored Proedure\Stored Proedure\bin\Debug\Stored Proedure.exe.config
+C:\Users\HP\source\repos\Stored Proedure\Stored Proedure\bin\Debug\Stored Proedure.exe
+C:\Users\HP\source\repos\Stored Proedure\Stored Proedure\bin\Debug\Stored Proedure.pdb
+C:\Users\HP\source\repos\Stored Proedure\Stored Proedure\obj\Debug\Stored Proedure.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Stored Proedure\Stored Proedure\obj\Debug\Stored_Proedure.Form1.resources
+C:\Users\HP\source\repos\Stored Proedure\Stored Proedure\obj\Debug\Stored_Proedure.Properties.Resources.resources
+C:\Users\HP\source\repos\Stored Proedure\Stored Proedure\obj\Debug\Stored Proedure.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\Stored Proedure\Stored Proedure\obj\Debug\Stored Proedure.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Stored Proedure\Stored Proedure\obj\Debug\Stored Proedure.exe
+C:\Users\HP\source\repos\Stored Proedure\Stored Proedure\obj\Debug\Stored Proedure.pdb
